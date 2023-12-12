@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: 0;
+}
+
+body {
+    background-color: #D8FFDB;
+}
+
+body.active {
+    background-color: #015958;
+}
+
+#cabecalho {
+    background-color:  #C7FFED;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#cabecalho.active {
+    background-color: #023535;
+}
+
+#logo {
+    height: 70px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+#menu ul li a {
+    font-family: 'Jockey One', sans-serif;
+    color: #000;
+    font-size: 24px;
+}
+
+#menu ul.active li a {
+    color: #FFF;
+}
+
+.search-bar {
+    width: 242px;
+    height: 45px;
+    background: rgba(2, 53, 53, 0.15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.search-bar {
+    background: rgba(199, 255, 237, 0.15);
+}
+
+.search-bar i {
+    cursor: pointer;
+    font-size: 23px;
+    color: #02353599;
+}
+
+#search {
+    background: transparent;
+    outline: none;
+    padding-left: 10px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Jockey One', sans-serif;
+    width: 80%;
+}
+
+#cart {
+    font-size: 38px;
+    cursor: pointer;
+    color: #02353599;
+}
+
+#theme {
+    font-size: 38px;
+}
+
+#bars-responsive {
+    display: none;
+}
+
+.search-bar-mobile {
+    display: none;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+.fa-solid.active {
+    color:#C7FFED99;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#banner {
+    width: 45%;
+}
+
+main h6 {
+    font-size: 1vw;
+    font-family: 'Jockey One', sans-serif;
+}
+
+main h1 {
+    font-size:5.5vw;
+    font-family: 'Jomhuria', serif;
+}
+
+main h5 {
+    font-size: 0.8vw;
+    font-family: 'Inder', sans-serif;
+
+}
+.custom-button {
+    width: 248px;
+    height: 50px;
+    top: 900px;
+    left: 810px;
+    border-radius: 30px;
+    background: #015958;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+  }
+
+
+
+@media screen and (max-width: 1050px) {
+    #menu ul {
+        position: fixed;
+        top: 140px;
+        background-color: #C7FFED;
+        flex-direction: column;
+        width: 100%;
+        left: -1000px;
+        text-align: center;
+        gap: 5px;
+        transition: all 300ms linear;
+    }
+
+    #menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #bars-responsive {
+        display: block;
+        font-size: 55px;
+        cursor: pointer;
+        color: #02353599;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    #logo-mobile {
+        display: block;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #cabecalho {
+        flex-direction: column;
+        height: 140px;
+        justify-content: center;
+    }
+
+    .search-bar-mobile {
+        width: 100%;
+        height: 45px;
+        background: rgba(2, 53, 53, 0.15);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .search-bar-mobile i {
+        cursor: pointer;
+        font-size: 23px;
+        color: #02353599;
+    }
+
+    #cart {
+        font-size: 50px;
+    }
+
+    #theme {
+        font-size: 50px;
+    }
+
+    .top {
+        display: flex;
+        gap: 20px;
+        color: #02353599;
+        cursor: pointer;
+    }
+    
+    .custom-button {
+        width: 248px;
+        height: 50px;
+        top: 900px;
+        left: 810px;
+        border-radius: 30px;
+        background: #C7FFED;
+        font-family: 'Jockey One', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000; 
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none; 
+    }
+
+} 

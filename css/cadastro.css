@@ -1,0 +1,239 @@
+body {
+    background-color:#D8FFDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
+  
+  .container {
+    display: flex;
+    width:80%;
+  }
+
+  
+  
+  .left {
+    flex: 1; 
+    background-image: url('../img/homem-e-mulher-correndo-na-vista-lateral-da-pista\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .left img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: #008F8C;
+    width:100%;
+  }
+  
+  h2 {
+margin-top: 0;
+font-family: Jockey One;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 270px;
+    height: 30px;
+    top: 347px;
+    left: 732px;
+    background: #D8FFDB;
+ font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  label[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] 
+  {
+   
+  }
+  
+  a {
+    margin-top: 10px;
+    width: 220px;
+    height: 45px;
+    top: 406px;
+    left: 899px;
+    background: #C7FFED;
+    border-radius: 20px;
+    align-items: center;
+
+  }
+
+  .submit1{
+    color: #015958;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 270px;
+    margin-top: 30px;
+    font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+.submit{
+    color: #015958;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 200px;
+    width: 300px;
+    height: 45px;
+    left: 859px;
+
+  }
+
+  .ponto{
+   color: #008F8C;
+  }
+
+  .meio{
+list-style-type: none;
+align-items: center;
+width: 383px;
+height: 45px;
+top: 490px;
+left: 817px;
+color: #FFFFFF;
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+gap: 160px;
+margin-left: 10px;
+
+  }
+
+h2{
+  margin-left: 270px;
+  color: #FFFFFF;
+  font-family: Jockey One;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 15px;
+}
+
+.icons1{
+  margin-left: 340px;
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+
+
+}
+
+.icons{
+  margin-left: 295px;
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+
+
+}
+
+
+.um{
+  display: flex;
+  color: #FFFFFF;
+  font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;
+gap: 15px;
+margin-top: 30px;
+
+}
+
+.dois{
+  display: flex;
+  color: #FFFFFF;
+  font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 30px;
+gap: 15px;
+margin-top: 30px;
+
+}
+
+.tres{
+  display: flex;
+  color: #FFFFFF;
+  font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 80px;
+gap: 15px;
+margin-top: 30px;
+
+}
+
+.log{
+  color: #FFFFFF;
+  margin-left: 30px;
+  font-family: Jockey One;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+gap: 15px;
+
+}
+
